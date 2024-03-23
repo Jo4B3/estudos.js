@@ -1,31 +1,44 @@
-//estrutura do switch
+/
+function usuarios(nome){
+    
+    switch(nome){
+        case "joabe":
+        if(nome == "joabe"){
+
+            console.log("seja bem vindo "+nome)
+            console.log("desejas saber a previsão do tempo?")
+
+            var a = "sim"
+
+            if(a == "sim"){
+
+        function temperatura(tempo){
+            switch (tempo){
+             case 50:case 40: case 36: case 30: case 20:
+                console.log("esta calor hoje, "+tempo)
+                break
+            case 19: case 15: case 10:
+                console.log("esta agradavel hoje, "+tempo)
+                break
+            default:
+                console.log("esta frio hoje, "+tempo)
+                break         
 
 
-function alunos(nota){
+            }
+           
+        }
+        temperatura(40)
+        }  
 
-    //chamar o switch e indicar a ação
     
-    switch(nota){
+        }
     
-    //devemos por cases e indicar oq deve ser feito nela, e ao final da ação BREAK
-    
-    case 10:
-    case 9:
-    console.log("sua nota e perfeita")
-    break
-    
-    case 8:
-    case 7:
-    console.log("boa nota")
+        break
 
-    break
-    
-    //default e como se fosse o else
-    
-    default:
-    console.log("tente de novo")
-     }
+     default:
+        console.log("how are voce?")   
+    }
     }
     
-    alunos(10)
-    
+    usuarios("joabe")
