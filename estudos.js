@@ -27,5 +27,5 @@ function alunos(nota){
      }
     }
     
-    alunos(6)
+    alunos(10)
     
