@@ -1,44 +1,23 @@
-/
-function usuarios(nome){
+    console.log("Bom dia, insira seu usuario e senha")
     
-    switch(nome){
-        case "joabe":
-        if(nome == "joabe"){
+    function loog(login){
 
-            console.log("seja bem vindo "+nome)
-            console.log("desejas saber a previsão do tempo?")
+        switch(login){
 
-            var a = "sim"
-
-            if(a == "sim"){
-
-        function temperatura(tempo){
-            switch (tempo){
-             case 50:case 40: case 36: case 30: case 20:
-                console.log("esta calor hoje, "+tempo)
-                break
-            case 19: case 15: case 10:
-                console.log("esta agradavel hoje, "+tempo)
-                break
-            default:
-                console.log("esta frio hoje, "+tempo)
-                break         
-
-
-            }
-           
-        }
-        temperatura(40)
-        }  
-
+            case "joabe" + "09072002": case "marcos" + "12345": case "fernando" + "54321": case "rafel" + "09876":
+                            
+              if(login == "joabe" || "marcos" || "fernando" || "rafel" ) {
+                console.log("seja bem vindo")
+               
+              }
+             
+              break
     
-        }
+              default:
+                console.log("tente novamente")
     
-        break
-
-     default:
-        console.log("how are voce?")   
+                  }   
     }
-    }
-    
-    usuarios("joabe")
+  
+loog("marcos" + "12345")
+
